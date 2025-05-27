@@ -1,0 +1,85 @@
+	
+	#contenedor{
+		border:3px solid blue;
+	}
+	#cabecera{
+		background-color:#f08080;
+		padding:30px;
+		text-align:center;
+	}
+		.cuerpo{
+			background-color:#ffb6c1;
+			padding:30px;
+			text-align:justify;
+			height:100%;
+			margin-top:7px;
+			float:left;
+			width:60%;
+		}
+		.derecho{
+			float:rigth;
+			width:20%;
+			text-align:center;
+			padding:20px;
+			background-color:#f4a460;
+			height:100%;
+			margin-top:7px;
+		}
+		.izquierdo{
+			float:left;
+			width:20%;
+			text-align:center;
+			padding:20px;
+			background-color:#cd5c5c;
+			height:100%;
+			margin-top:7px	
+		}
+		 .pie{
+			 background-color:#ffdead;
+			 text-align:center;
+			 padding:10px;
+		 }
+		 
+		 #alinear{
+			 display:flex;
+			 margin:7px;
+		 }
+		
+		#ss{
+			overflow:auto;
+		}
+		
+		#imglogo{
+			max-width:5%;
+			width:auto;
+			height:auto;
+			float:left;
+		}
+		
+		h1,h2{
+			font-family:cursive;
+			text-align:center;
+		}
+		
+		p{
+			font-family:verdana;
+			text-align:justify;
+		}
+		
+		#imgArtist{
+			max-width:90%;
+			max-height:85%;
+		}
+		.izquierdo a{
+			background-color:hsla(0.11turn,100%,50%,0.5);
+			padding:8px;
+			margin-top:2px;
+			display:block;
+			width:100%;
+			font-weight:bold;
+			text-align:center;
+			text-decoration:none;
+		}
+		.izquierdo a:hover{
+			background-color:hsla(0.5 turn ,100%,50%;0.2);
+		}
